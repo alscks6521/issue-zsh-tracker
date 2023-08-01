@@ -1,4 +1,5 @@
 2023년 8월 1일
+코드에서 참조할 것(referenced in code)
 
 문제발생 : 며칠 전 "iterm2, oh-my-zsh" 를 설치하고부터 기존에 사용하던 커맨드를 입력할 때마다 
         "zsh: command not found: ..." 라는 메시지가 나왔다.
@@ -38,6 +39,7 @@ export PATH="/usr/.../bin:$PATH"
 --------------------------------------------------------------------------
 
         + 나는 flutter의 경로가 $HOME/development/ 파일안에 flutter파일이 있기에 .zshrc 파일 추가 변경해야됨.
+        
         
 # If you come from bash you might have to change your $PATH.
 export PATH="/usr/.../bin:$PATH"
